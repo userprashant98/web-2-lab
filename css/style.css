@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+.landing {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    height: 100vh;
+}
+
+.landing-interact {
+    display: grid;
+    grid-template-rows: 1.6fr 1fr 1.2fr 1.5fr;
+}
+
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.branding {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-left: 2em;
+}
+
+.logo {
+    width: 90%;
+}
+
+
+.logo-title {
+    font-size: 2.2em;
+    color: #660c0c;
+    font-weight: bolder;
+    letter-spacing: 2.5px;
+    ;
+}
+
+
+.nav-button {
+    width: 6.5em;
+    height: 2.5em;
+    font-weight: bolder;
+    font-size: 1em;
+    border: none;
+}
+
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2em;
+}
+
+.changing {
+    font-size: 2.3em;
+}
+
+.sub-title {
+    font-size: 1.5em;
+    color: grey;
+    font-weight: 300;
+    ;
+}
+
+.search {
+    padding: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    width: 80%;
+    padding: 0.9em;
+    font-size: 1.1em;
+    height: 3.6em;
+}
+.search-submit {
+    width: auto;
+    border: none;
+    background: #660c0c;
+    color: white;
+    padding: 1em;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.landing-image {
+    width: 100%;
+    height: 100vh;
+}
+.features {
+    height: 55vh;
+    background-color: #3B0B0B;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
